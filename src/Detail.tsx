@@ -128,7 +128,7 @@ function Detail(props: DetailProps): JSX.Element {
                     <div className="thumbnail swipercontainer">
                       <ul className="swiperwrapper">
                         <li className="swiperslide2">
-                          <img src={'/types/'+selProduct?.imgurl}></img>
+                          <img src={'/types/..'+selProduct?.imgurl}></img>
                         </li>
                       </ul>
                     </div>
